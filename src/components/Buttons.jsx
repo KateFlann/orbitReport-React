@@ -12,7 +12,6 @@ const Buttons = ({ filterByType, setSat, displaySats }) => {
         );
       })}
 
-      {/* create an onClick function that points to setSat. Pass satData to setSat. */}
       <button onClick={() => setSat(satData)}>All Orbits</button>
     </div>
   );
